@@ -1,4 +1,4 @@
-明白了！你刚才复制的是“整段代码块”，所以在 GitHub 上也被当成了代码显示。下面这份是**可直接粘贴成 `README.md` 的正文**（不是包在三引号里的整段代码）。里边只有命令/代码才用小的代码块，其他都是正常 Markdown——复制整篇到 `README.md` 即可。
+
 
 # RISC-V CPU Core — UVM-Based ISA Compliance Verification
 
