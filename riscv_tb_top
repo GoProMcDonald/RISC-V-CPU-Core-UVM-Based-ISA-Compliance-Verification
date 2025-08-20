@@ -24,7 +24,7 @@ module riscv_tb_top;
 
   // 4) 将 interface 传给 UVM monitor
   initial begin
-    uvm_config_db#(virtual commit_if.mon)::set(null, "uvm_test_top.env.dut_mon", "vif", cmt_dut);
+    uvm_config_db#(virtual commit_if.mon)::set(null, "uvm_test_top.env.dut_mon", "vif", cmt_dut); 
     uvm_config_db#(virtual commit_if.mon)::set(null, "uvm_test_top.env.ref_mon", "vif", cmt_ref);
   end
 
