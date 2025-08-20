@@ -76,12 +76,12 @@ Makefile                           # one-command build (VCS/Questa)
 ## Architecture
 
 ```mermaid
-flowchart LR
-  SEQ[Sequences / ROM] --> DRV[Driver]
-  DRV -- txn --> IF[commit_if]
-  IF --> DUT[DUT (RISC-V core stub)]
-  MON[Monitor] --> SB[Scoreboard]
-  SB <--> DPI[DPI Mock (Spike-like)]
+flowchart TD
+  SEQ["Sequences/ROM"] --> DRV["Driver"]
+  DRV -- "txn" --> IFACE["commit_if"]
+  IFACE --> DUT["DUT (RISC-V core stub)"]
+  MON["Monitor"] --> SB["Scoreboard"]
+  SB <--> DPI["DPI Mock (Spike-like)"]
 ```
 
 ---
