@@ -1,0 +1,6 @@
+# 仿真生成物
+csrc/ simv* ucli.key DVEfiles/ vcs.log urgReport/ *.vdb *.ucdb *.vcd *.wlf work/ transcript vsim.dbg covhtml/ *.log *.jou *.pb *.str *.fsdb *.daidir
+# DPI/编译
+*.so *.o *.a
+# 杂项
+.DS_Store *.swp
